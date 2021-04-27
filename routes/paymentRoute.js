@@ -31,8 +31,8 @@ if (process.env.NODE_ENV === 'test') {
 }
 
 if (process.env.NODE_ENV === 'production') {
-    sberConfig.userName = 'P6234117862-api';
-    sberConfig.password = 'saqtiz-sifkoc-0Dapky';
+    sberConfig.userName = 'test';
+    sberConfig.password = 'test';
     sberConfig.url = 'https://securepayments.sberbank.ru';
     sberConfig.returnUrl = 'https://tort-rzn.ru';
 }
